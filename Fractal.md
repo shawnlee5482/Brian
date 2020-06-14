@@ -1,6 +1,16 @@
 # Fractal Image
 
+``` <index.html>
+<html>
+    <body>
+        <canvas id="myCanvas">
+        </canvas>
+        <script src="drawing.js"></script>
+    </body>
+</html>
 ```
+
+``` <drawing.js>
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
